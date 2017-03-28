@@ -1,0 +1,31 @@
+
+
+.header{
+	background-color: #ca9191;
+	padding: 25px 0px 25px 0px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 {
+	font-family: serif;
+	text-decoration: underline;
+}
+h2 {
+	font-family: serif;
+	font-size:24px;
+	font-style: italic;
+}
+p {
+	text-align: center;
+	background-color: 
+
+}
+.navhome {
+	padding: 0px;
+	font-weight: bold;
+	font-family: serif;
+}
+.navhome:hover {
+	color: #b95d8c;
+	font-size: 16px;
+}
