@@ -34,17 +34,6 @@
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-h1 {
-	font-family: 'Cormorant Garamond', serif;
-	font-weight: bold;
-	font-size: 60px;
-
-}
-h2 {
-	font-family: 'Cormorant Garamond', serif;
-	font-size:24px;
-	font-style: italic;
-}
 .navhead {
 	text-align: center;
 	background-color: 
@@ -69,7 +58,26 @@ h2 {
 	
 }
 
-.about {
-	padding: 20px;
-	text-align: left;
+.aboutlink { 
+		padding-left: 30px;
+		padding-top: 30px;
+
+ }
+
+ .aboutheader {
+ 	font-size: 60px;
+ 	text-align: center;
+ 	font-family: 'Cormorant Garamond', serif;
+ 	border-bottom-style: solid;
+ 	border-bottom-width: 1px;
+ }
+#SPO {
+	float: left;
+	margin-right: 30px;
+}
+
+.abouttext {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+
 }
