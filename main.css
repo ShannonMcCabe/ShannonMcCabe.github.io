@@ -1,26 +1,29 @@
 .SICKANIMATION {
 	width: 100%;
 	height: 100%;
-	background: url("wooddeskbackground.jpg");
+	background: url("laptop.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	position: relative;
+
 }
 
 .animationtext {
 	color: white;
     margin-top: 0px;
+    padding-left: 20px;
     padding-top:300px;
-    font-size: 100px;
-    text-align: center;
-            animation: fadein 3s;
+    font-size: 125px;
+    text-align: left;
+            animation: fadein 6s;
     font-family: 'Cormorant Garamond', serif;
 }
 .subtext {
 	color: white;
-    margin-top: 0px;
-    font-size: 35px;
-    text-align: center;
-            animation: fadein 3s;
+	padding-left: 20px;
+    font-size: 60px;
+    text-align: left;
+            animation: fadein 6s;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -28,27 +31,20 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }	
-}
-.header{
-	padding: 25px 0px 25px 0px;
-	text-align: center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.navhead {
-	text-align: center;
-	background-color: 
 
-}
 .navhome {
 	padding: 0px;
 	font-weight: bold;
 	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	box-shadow:  0px 10px 7px -8px rgba(82,82,82,1);
 
 }
 .nav {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	font-size: 18px;
+
 }
 .navhome:hover {
 	color: #b95d8c;
@@ -80,4 +76,43 @@
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
 
+}
+
+.contactheader {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.contacttext {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
+	padding-left: 30px;
+}
+.Phonenumber {
+font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	padding-left: 30px;
+}
+.Email {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+a:link {
+	color: black;
+	}
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+a:active {
+	color: black;
+	text-decoration: none;
 }
