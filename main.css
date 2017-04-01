@@ -67,10 +67,6 @@
  	border-bottom-style: solid;
  	border-bottom-width: 1px;
  }
-#SPO {
-	float: left;
-	margin-right: 30px;
-}
 
 .abouttext {
 	font-family: 'Cormorant Garamond', serif;
@@ -78,6 +74,19 @@
 
 }
 
+#AboutImgs {
+	text-align: center;
+}
+#studentorgs {
+	height: 400px;
+	width: 375px;
+	text-align: left;
+}
+#workexp {
+	text-align: right;
+	height: 400px;
+	width: 375px;
+}
 .contactheader {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 60px;
